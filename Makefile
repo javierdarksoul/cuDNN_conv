@@ -1,5 +1,5 @@
 CXX := nvcc
-TARGET := conv
+TARGET := convgpu
 CUDNN_PATH := cudnn
 HEADERS := -I $(CUDNN_PATH)/include
 LIBS := -L $(CUDNN_PATH)/lib64 -L/usr/local/lib
